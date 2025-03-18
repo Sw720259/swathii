@@ -12,9 +12,12 @@ int main() {
 			printf("\ngood");
 			break;
 		case C:
-			printf("\nfail");
+			printf("\n very good");
 			break;
 		case D:
+			printf("\nbad");
+			break;
+		case F:
 			printf("\nfailed students");
 			break;
 		default:
