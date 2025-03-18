@@ -14,9 +14,13 @@ int main() {
 		case C:
 			printf("\nfail");
 			break;
+		case D:
+			printf("\nfailed students");
+			break;
 		default:
 			printf("\n invalid grade");
 			break;
 	}
 	return 0;
+
 }
