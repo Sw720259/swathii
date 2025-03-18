@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
 	int day;
-	printf("enter a number (1-7):");
+	printf("enter a number (1-6):");
 	scanf("%d",&day);
 	switch(day) {
 		case 1:
@@ -22,9 +22,7 @@ int main() {
 		case 6:
 			printf("friday\n");
 			break;
-		case 7:
-			printf("saturday\n");
-			break;
+		
 		default :
 			printf("invalid day\n");
 			break;
