@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
-	int a=10,b=20,max;
-	max=(a>b)?a:b;
-	printf("maximum:%\n",max);
+	int a=10,b=20,small;
+	max=(a<b)?a:b;
+	printf("smallest:%\n",small);
 	return 0;
 }
