@@ -10,6 +10,6 @@ int main() {
 			temp/=10;
 		}
 		printf("the reverse number is:%d\n",reverse);
-
+scanf("the reverse num is:");
 		return 0;
 }
